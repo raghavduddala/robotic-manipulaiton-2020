@@ -21,4 +21,9 @@ Kinova--- (Very small base and easy to fix on wheel chairs)
   * **Discussion**
   * If a robot is using a position control, then it is difficult for the humans to get near the robot. Because the robot will tend to achieve the desired position/pose irrespective of anything present there including a human. So for controlling the **joint torques** essentially uses a Torque Sensor(Spring/Strain Guage)( (BAXTER) usess Series Elastic Actuators). So motors with high gear ratios can also use this. More discussion in **FORCE CONTROL**  lectures.
   
+* In KUKA iiwa (In Torque Control/Force Control, we have a additional Feedforward Torque Command given along with the position, I guess (my understanding from the Lecture directly).
   
+### PYDRAKE
+* Uses a Physics Engine called **Multi-Body Plant**. This is also a physics engine for control similar to **MUJOCO**.
+* Uses SDF and URDF. (xml version)
+
